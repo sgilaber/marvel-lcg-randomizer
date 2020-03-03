@@ -17,7 +17,6 @@ export default class Randomizer {
             .map(([,d]) => d);
 
         const difficulties =  scenarioDifficulties || defaultDifficulties;
-        alert(difficulties)
         const difficulty = difficulties[Math.floor(Math.random() * difficulties.length)] || "No difficulty available";
 
         return {
