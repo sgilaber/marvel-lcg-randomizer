@@ -3,26 +3,46 @@ export const scenarios = [
         name: 'Rhino - The Break In!',
         img: 'images/scenarios/MC01en_97A.jpg',
         pack: "Core Set",
+        difficulties: [
+            ["Standard", "Standard"],
+            ["Expert", "Expert"]
+        ]
     },
     {
         name: 'Klaw - Underground Distribution',
         img: 'images/scenarios/MC01en_116A.jpg',
         pack: "Core Set",
+        difficulties: [
+            ["Standard", "Standard"],
+            ["Expert", "Expert"]
+        ]
     },
     {
         name: 'Ultron - The Crimson Cowl',
         img: 'images/scenarios/MC01en_137A.jpg',
         pack: "Core Set",
+        difficulties: [
+            ["Standard", "Standard"],
+            ["Expert", "Expert"]
+        ]
     },
     {
         name: 'Green Goblin - Risky Business',
         img: 'images/scenarios/02004.jpg',
         pack: "Green Goblin",
+        difficulties: [
+            ["Standard", "Standard"],
+            ["Expert", "Expert"]
+        ]
     },
     {
         name: 'Green Goblin - Mutagen Formula',
         img: 'images/scenarios/02017.jpg',
         pack: 'Green Goblin',
+        difficulties: [
+            ["Standard", "Standard"],
+            ["Expert", "Expert"]
+        ]
     },
     {
         name: 'Wrecking Crew - Breakout',
